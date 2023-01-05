@@ -1,0 +1,33 @@
+.btn-nav {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn-nav:hover {
+  background-color: rgb(211, 211, 211);
+}
+.btn-nav img {
+  width: 25px;
+  height: 25px;
+}
+.btn-nav:nth-child(1) {
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 40px;
+  cursor: inherit;
+}
+.btn-nav:nth-child(1) img {
+  width: 35px;
+  height: 35px;
+}
+
+.btn-nav:nth-child(6) {
+  border-radius: 50%;
+  margin-top: 360px;
+  background-color: rgb(255, 255, 255);
+}
+.btn-nav:nth-child(6):hover {
+  background-color: rgb(211, 211, 211);
+}

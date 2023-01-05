@@ -1,0 +1,184 @@
+.logo {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(7, 65, 151);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper-folders {
+  /*background-color: rgb(151, 211, 123);*/
+  width: 95%;
+}
+.name_section {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.folder {
+  width: 100%;
+  height: 35px;
+  /*background-color: rgb(177, 139, 139);*/
+
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 5px;
+}
+.folder:hover {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.folder_section_img {
+  display: flex;
+  font-size: 14px;
+}
+.folder_section_img img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.arrow {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.arrow img {
+  width: 20px;
+  height: 20px;
+}
+.folder_subfolders {
+  /*background-color: rgb(167, 145, 145);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.folder_subfolders ul {
+  /*background-color: rgb(104, 102, 102);*/
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  flex-direction: column;
+}
+.folder_subfolders ul li {
+  border: 1px solid rgb(116, 112, 112);
+  padding-left: 20px;
+  width: 92%;
+}
+.folder_subfolders button {
+  width: 30%;
+  align-self: center;
+  font-size: 12px;
+}
+.folder_subfolders input {
+  width: 70%;
+  border: rgb(73, 72, 72) 1px solid;
+}
+.folder_subfolders div {
+  display: flex;
+  align-items: center;
+}
+.wrapper_tags_panel {
+  margin-top: 20px;
+  position: relative;
+}
+.tags_panel {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  padding: 5px;
+  box-sizing: border-box;
+
+  border-radius: 30px;
+}
+.tags_panel div {
+  margin: 5px;
+  padding: 7px;
+  border-radius: 17px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+}
+.tags_panel button {
+  height: 35px;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.heading_tags {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.popup_add_tag {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  z-index: 50;
+  top: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.popup_add_tag input {
+  width: 240px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.block_cancel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.block_color {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input_close {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cancel {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.view_tag {
+  height: 50px;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.popup_add_tag button {
+  height: 25px;
+  width: 180px;
+  align-self: center;
+}
